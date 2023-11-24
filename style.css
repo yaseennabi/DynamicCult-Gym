@@ -115,3 +115,12 @@ h2 {
   color: #000;
   text-align: center;
 }
+@media only screen and (max-width: 600px) {
+      /* Adjust styles for small screens (e.g., mobile devices) */
+      header, footer {
+        padding: 0.5em;
+      }
+
+      section {
+        padding: 0.5em;
+      }
